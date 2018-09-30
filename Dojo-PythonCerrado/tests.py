@@ -9,7 +9,7 @@ class BrainfuckTests(unittest.TestCase):
   def test_ret_inc_cell(self):
     program = '+'
     result = self.bf.brainfuck_program(program)
-    self.assertEqual(result,'')
+    self.assertEqual(result,1)
 
 
 if __name__ == '__main__':
